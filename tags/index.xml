@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cha Fernandez</title>
-    <link>https://chafernandez.com/tags/</link>
+    <link>https://tsayinnnn.github.io/tags/</link>
     <description>Recent content in Tags on Cha Fernandez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Apr 2024 22:34:13 +0800</lastBuildDate>
-    <atom:link href="https://chafernandez.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tsayinnnn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firebase</title>
-      <link>https://chafernandez.com/tags/firebase/</link>
+      <link>https://tsayinnnn.github.io/tags/firebase/</link>
       <pubDate>Sun, 14 Apr 2024 22:34:13 +0800</pubDate>
-      <guid>https://chafernandez.com/tags/firebase/</guid>
+      <guid>https://tsayinnnn.github.io/tags/firebase/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>https://chafernandez.com/tags/flutter/</link>
+      <link>https://tsayinnnn.github.io/tags/flutter/</link>
       <pubDate>Sun, 14 Apr 2024 22:34:13 +0800</pubDate>
-      <guid>https://chafernandez.com/tags/flutter/</guid>
+      <guid>https://tsayinnnn.github.io/tags/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Mobile App</title>
-      <link>https://chafernandez.com/tags/mobile-app/</link>
+      <link>https://tsayinnnn.github.io/tags/mobile-app/</link>
       <pubDate>Sun, 14 Apr 2024 22:34:13 +0800</pubDate>
-      <guid>https://chafernandez.com/tags/mobile-app/</guid>
+      <guid>https://tsayinnnn.github.io/tags/mobile-app/</guid>
       <description></description>
     </item>
     <item>
       <title>Logo</title>
-      <link>https://chafernandez.com/tags/logo/</link>
+      <link>https://tsayinnnn.github.io/tags/logo/</link>
       <pubDate>Thu, 04 Apr 2024 05:00:00 +0000</pubDate>
-      <guid>https://chafernandez.com/tags/logo/</guid>
+      <guid>https://tsayinnnn.github.io/tags/logo/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphic Design</title>
-      <link>https://chafernandez.com/tags/graphic-design/</link>
+      <link>https://tsayinnnn.github.io/tags/graphic-design/</link>
       <pubDate>Mon, 04 Mar 2024 05:00:00 +0000</pubDate>
-      <guid>https://chafernandez.com/tags/graphic-design/</guid>
+      <guid>https://tsayinnnn.github.io/tags/graphic-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Others</title>
-      <link>https://chafernandez.com/tags/others/</link>
+      <link>https://tsayinnnn.github.io/tags/others/</link>
       <pubDate>Mon, 04 Mar 2024 05:00:00 +0000</pubDate>
-      <guid>https://chafernandez.com/tags/others/</guid>
+      <guid>https://tsayinnnn.github.io/tags/others/</guid>
       <description></description>
     </item>
   </channel>

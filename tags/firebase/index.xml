@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firebase on Cha Fernandez</title>
-    <link>https://chafernandez.com/tags/firebase/</link>
+    <link>https://tsayinnnn.github.io/tags/firebase/</link>
     <description>Recent content in Firebase on Cha Fernandez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 14 Apr 2024 22:34:13 +0800</lastBuildDate>
-    <atom:link href="https://chafernandez.com/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tsayinnnn.github.io/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChickenCoop - Mobile App</title>
-      <link>https://chafernandez.com/projects/chickencoop/</link>
+      <link>https://tsayinnnn.github.io/projects/chickencoop/</link>
       <pubDate>Sun, 14 Apr 2024 22:34:13 +0800</pubDate>
-      <guid>https://chafernandez.com/projects/chickencoop/</guid>
+      <guid>https://tsayinnnn.github.io/projects/chickencoop/</guid>
       <description>Chicken App is a Hardware - Paired Mobile Application for Chicken Coop Temperature Checking.</description>
     </item>
   </channel>
