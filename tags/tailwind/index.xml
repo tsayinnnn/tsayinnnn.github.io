@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tailwind on Hugoplate</title>
+    <link>//localhost:1313/tags/tailwind/</link>
+    <description>Recent content in Tailwind on Hugoplate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Feb 2023 05:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/tailwind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Table Tennis Score Board - Mobile App</title>
+      <link>//localhost:1313/projects/post-2/</link>
+      <pubDate>Sat, 04 Feb 2023 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/post-2/</guid>
+      <description>The TTSB (Table Tennis Score Board) app was initially developed for classroom use during our Physical Education Subject.</description>
+    </item>
+    <item>
+      <title>MultiTask - Mobile App</title>
+      <link>//localhost:1313/projects/post-1/</link>
+      <pubDate>Mon, 04 Apr 2022 05:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/post-1/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+    <item>
+      <title>Others</title>
+      <link>//localhost:1313/projects/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/test/</guid>
+      <description>Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat.</description>
+    </item>
+  </channel>
+</rss>

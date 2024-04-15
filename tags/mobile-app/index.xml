@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile App on Cha Fernandez</title>
+    <link>https://chafernandez.com/tags/mobile-app/</link>
+    <description>Recent content in Mobile App on Cha Fernandez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Apr 2024 22:34:13 +0800</lastBuildDate>
+    <atom:link href="https://chafernandez.com/tags/mobile-app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChickenCoop - Mobile App</title>
+      <link>https://chafernandez.com/projects/chickencoop/</link>
+      <pubDate>Sun, 14 Apr 2024 22:34:13 +0800</pubDate>
+      <guid>https://chafernandez.com/projects/chickencoop/</guid>
+      <description>Chicken App is a Hardware - Paired Mobile Application for Chicken Coop Temperature Checking.</description>
+    </item>
+    <item>
+      <title>MultiTask - Mobile App</title>
+      <link>https://chafernandez.com/projects/post-1/</link>
+      <pubDate>Sun, 04 Feb 2024 05:00:00 +0000</pubDate>
+      <guid>https://chafernandez.com/projects/post-1/</guid>
+      <description>A combination of Task Manager, Expenses Tracker, and Habit Tracker app.</description>
+    </item>
+    <item>
+      <title>Table Tennis Score Board - Mobile App</title>
+      <link>https://chafernandez.com/projects/post-2/</link>
+      <pubDate>Sat, 04 Feb 2023 05:00:00 +0000</pubDate>
+      <guid>https://chafernandez.com/projects/post-2/</guid>
+      <description>The TTSB (Table Tennis Score Board) app was initially developed for classroom use during our Physical Education Subject.</description>
+    </item>
+  </channel>
+</rss>
