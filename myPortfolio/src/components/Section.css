@@ -1,0 +1,14 @@
+.section {
+  min-height: 100vh; /* Makes each section fill the screen height */
+  padding: 80px 40px; /* Adds space, 80px on top to avoid header overlap */
+  border-bottom: 1px solid #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}

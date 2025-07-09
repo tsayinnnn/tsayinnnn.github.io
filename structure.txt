@@ -1,0 +1,15 @@
+my-react-app/
+├── node_modules/     # All your installed dependencies
+├── public/           # Static assets (images, fonts) that don't get processed
+│   └── vite.svg
+├── src/              # YOUR MAIN WORK FOLDER
+│   ├── assets/       # Processed assets (like the React logo)
+│   ├── App.css       # CSS for the App component
+│   ├── App.jsx       # The main App component
+│   ├── index.css     # Global CSS styles
+│   └── main.jsx      # The entry point of your application
+├── .gitignore        # Files for Git to ignore
+├── index.html        # The main HTML file (React injects into this)
+├── package.json      # Project info and list of dependencies
+├── vite.config.js    # Vite configuration file
+└── README.md

@@ -1,0 +1,61 @@
+/* --- Base styles for ALL screen sizes (Desktop First) --- */
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; 
+  max-width: 434px; 
+  background-color: #ffffff;
+  box-shadow: 0 16px 48px #E3EBFB;
+  padding: 1rem;
+  margin: 1rem 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  z-index: 1000; 
+}
+
+.header nav {
+  display: flex;
+  gap: 65px; 
+  align-items: center; 
+}
+
+.header nav a {
+
+  font-family: 'Inter', sans-serif; 
+  font-size: 10.8px; 
+  font-weight: 700;  
+  letter-spacing: 0.87px;
+  color: #964E50;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap; 
+}
+
+.header nav a:hover,
+.header nav a.active {
+  background-color: #964E50;
+  padding: .5rem;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0.8rem;
+  }
+  .header nav {
+    gap: 25px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .header nav {
+    gap: 15px; 
+  }
+}
