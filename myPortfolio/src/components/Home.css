@@ -1,50 +1,30 @@
 .homesection{
-    background-image:url('/src/assets/bg.svg');
+    background-color: #F4F2EC;
     min-height: 80vh;
-  padding: 10vh ; 
+  padding-top: 20vh;
   border-bottom: 1px solid #eee;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-.blurbox {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  margin: 5vw;
-  margin-top: 0;
-  transform: translateY(-50%);
-  height: 80vh;
-  width: 70vw;
-  border-radius: 16px;
-  box-shadow: 0 16px 48px #E3EBFB;
-  z-index: 1;
-  background-color: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(100px);
-  -webkit-backdrop-filter: blur(100px);
-}
-
 .homecontent {
-    position: absolute;
-    left: 0;
+    position: center;
     bottom: 0;
     margin: 5vw;
     z-index: 2;
-    text-align: left;
+    text-align: center;
     h1 {
         font-family: 'Inter', sans-serif;
         font-weight: 800; /* NOT WORKINGGGG */
         letter-spacing: -5.2px;
-        font-size: clamp(60px, 4vw + 40px, 150px);
+        font-size: clamp(30px, 4vw + 40px, 70px);
         margin: 0;
         line-height: 0.9;
         background: linear-gradient(to right, #964E50, #D8C3BE);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-
         color: #964E50;
     }
 
@@ -63,3 +43,4 @@
         color: #964E50;
     }
 }
+

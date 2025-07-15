@@ -1,61 +1,63 @@
-/* --- Base styles for ALL screen sizes (Desktop First) --- */
 .header {
   position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%; 
-  max-width: 434px; 
+  width: 95%; 
+  max-width: 434px;
+
+  margin: 1rem auto; 
+  
   background-color: #ffffff;
   box-shadow: 0 16px 48px #E3EBFB;
-  padding: 1rem;
-  margin: 1rem 0; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 0.75rem; 
   border-radius: 20px;
-  z-index: 1000; 
+  z-index: 1000;
+
+  transform: none; 
 }
 
 .header nav {
   display: flex;
-  gap: 65px; 
-  align-items: center; 
+  justify-content: space-around; 
+  align-items: center;
+  width: 100%;
+  gap: 10px;
 }
 
 .header nav a {
-
-  font-family: 'Inter', sans-serif; 
-  font-size: 10.8px; 
-  font-weight: 700;  
-  letter-spacing: 0.87px;
+  font-family: 'Inter', sans-serif;
+  font-size: 10px; 
+  font-weight: 700;
+  letter-spacing: 0.5px; 
   color: #964E50;
   text-decoration: none;
-  transition: all 0.3s ease;
   white-space: nowrap; 
+  padding: 0.5rem 0.6rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
 }
 
 .header nav a:hover,
 .header nav a.active {
   background-color: #964E50;
-  padding: .5rem;
-  border-radius: 20px;
-  color: #ffffff;
+  color: #ffffff
 }
 
 
-
-@media (max-width: 768px) {
+@media (min-width: 600px) {
   .header {
-    padding: 0.8rem;
+    left: 50%;
+    right: auto; 
+    transform: translateX(-50%);
+    padding: 1rem; 
   }
-  .header nav {
-    gap: 25px; 
-  }
-}
 
-@media (max-width: 480px) {
   .header nav {
-    gap: 15px; 
+    gap: 65px; 
+    justify-content: center;
+  }
+
+  .header nav a {
+    font-size: 10.8px;
+    letter-spacing: 0.87px;
+    padding: .5rem;
   }
 }

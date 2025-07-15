@@ -6,25 +6,17 @@ import './Projects.css';
 function Projects() {
   return (
     <section id="projects" className="section">
-      <div class="stats-bar">
-        <div class="stat-item">
-          <p class="stat-number">7</p>
-          <p class="stat-description">Years in Graphic design</p>
-        </div>
-        <div class="stat-item">
-          <p class="stat-number">4</p>
-          <p class="stat-description">Years of experience in UI/UX design</p>
-        </div>
-        <div class="stat-item">
-          <p class="stat-number">24</p>
-          <p class="stat-description">UI projects completed</p>
-        </div>
-        <div class="stat-item">
-          <p class="stat-number">7</p>
-          <p class="stat-description">Sectors of Products and Businesses</p>
+      <div className="software" style={{ background: "#964E50" }}>
+        <h2 className="works-title">WORKS</h2>
+        <div className="works-categories">
+          <p>SOFTWARE DESIGN</p>
+          <p>SOFTWARE DEVELOPMENT</p>
+          <p>BRANDING</p>
+          <p>GRAPHIC DESIGN</p>
         </div>
       </div>
-        <h2>Projects</h2>
+
+   
 
     </section>
   );
