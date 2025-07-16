@@ -1,46 +1,58 @@
-.homesection{
-    background-color: #F4F2EC;
-    min-height: 80vh;
-  padding-top: 20vh;
+.homesection {
+  background-color: #F4F2EC;
+  min-height: 80vh;
+  padding-top: 20vh; 
+  padding-bottom: 5vh; 
   border-bottom: 1px solid #eee;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem; 
 }
+
 .homecontent {
-    position: center;
-    bottom: 0;
-    margin: 5vw;
-    z-index: 2;
-    text-align: center;
-    h1 {
-        font-family: 'Inter', sans-serif;
-        font-weight: 800; /* NOT WORKINGGGG */
-        letter-spacing: -5.2px;
-        font-size: clamp(30px, 4vw + 40px, 70px);
-        margin: 0;
-        line-height: 0.9;
-        background: linear-gradient(to right, #964E50, #D8C3BE);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: #964E50;
-    }
-
-    p {
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        font-size: clamp(14px, 1.5vw, 18px);
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        margin-top: 1rem;
-        margin-left: 2px;
-        background: linear-gradient(to right, #964E50, #D8C3BE);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: #964E50;
-    }
+  margin: 0 1rem; 
+  text-align: center;
 }
 
+.homecontent h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -5.2px;
+  font-size: clamp(30px, 4vw + 40px, 70px);
+  margin: 0;
+  line-height: 0.9;
+  background: linear-gradient(to right, #964E50, #D8C3BE);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #964E50;
+}
+
+.homecontent p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: clamp(14px, 1.5vw, 18px);
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 2px;
+  background: linear-gradient(to right, #964E50, #D8C3BE);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #964E50;
+}
+
+
+.PhoneImage {
+  width: 100%; 
+  max-width: 70vw; 
+}
+
+.PhoneImage img {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
