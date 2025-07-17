@@ -4,7 +4,13 @@ const images = import.meta.glob('/src/assets/apps/*.png', { eager: true });
 
 const projectImages = [
   '9.png', '10.png', '11.png', '12.png', '13.png',
-  '14.png', '15.png', '16.png', '17.png', '18.png'
+   '18.png',  '21.png', '22.png', '23.png',
+  '24.png', '25.png',
+];
+
+const webProjectImages = [
+  '20.png', '21.png', '22.png', '23.png',
+  '24.png', '25.png', '26.png', '27.png', '14.png', '15.png', '16.png', '17.png',
 ];
 
 const Projects = () => {
@@ -36,6 +42,7 @@ const Projects = () => {
       slider.removeEventListener('click', handleClick);
     };
   }, [totalSlides]); 
+  
   useEffect(() => {
     const slider = sliderRef.current;
     if (!slider) return;
@@ -89,6 +96,33 @@ const Projects = () => {
           </div>
         ))}
       </div>
+
+      
+      <div className={styles.webContainer}>
+        <h2>MOBILE AND WEBSITE BASED DEVELOPMENT AND DESIGNS</h2>
+        <div className={styles.scroller}>
+          <div className={styles.scrollerInner}>
+            
+            {webProjectImages.map((imageName, index) => (
+              <img
+                key={`web-${index}`}
+                src={images[`/src/assets/apps/${imageName}`].default}
+                alt={`Web Project ${index + 1}`}
+              />
+            ))}
+           
+            {webProjectImages.map((imageName, index) => (
+              <img
+                key={`web-dup-${index}`}
+                src={images[`/src/assets/apps/${imageName}`].default}
+                alt="" 
+                aria-hidden="true"
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+ 
     </section>
   );
 };
